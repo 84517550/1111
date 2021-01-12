@@ -92,6 +92,5 @@ export default function App() {
 ```
 import { inject, observer } from 'mobx-react'
 export default inject('store')(observer(props=>()))
-？？？
 ```
 * 在页面中，使用 props.store 来访问 共享的数据和action方法。
