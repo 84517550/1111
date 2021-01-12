@@ -90,6 +90,7 @@ export default function App() {
 ```
 * 在页面组件中代码如下：
 ```
+？？
 import { inject, observer } from 'mobx-react'
 export default inject('store')(observer(props=>()))
 ```
